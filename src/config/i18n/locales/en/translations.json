@@ -1,0 +1,34 @@
+{
+	"yup": {
+		"string": {
+			"min": "{{label}} must be at least {{min}} characters",
+			"max": "{{label}} must be at most {{min}} characters"
+		}
+	},
+	"buttons": {
+		"close": "Close",
+		"create": "Create",
+		"save": "Save"
+	},
+	"sidebar": {
+		"inbox": "Inbox",
+		"upcoming": "Upcoming",
+		"all_tasks": "All Tasks",
+		"projects": "Projects",
+		"add_project": "Add Project",
+		"tags": "Tags"
+	},
+	"project": {
+		"modal": {
+			"header_create": "Create Project",
+			"header_edit": "Edit Project",
+			"toast": {
+				"project_created": "Project created",
+				"project_updated": "Project updated"
+			},
+			"form": {
+				"name": "Name"
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"yup": {
+		"string": {
+			"min": "{{label}} minimum hossza {{min}} karakter"
+		}
+	},
+	"buttons": {
+		"close": "Bezárás",
+		"create": "Létrehozás",
+		"save": "Mentés"
+	},
+	"sidebar": {
+		"inbox": "Bejövő feladatok",
+		"upcoming": "Közelgő feladatok",
+		"all_tasks": "Összes feladat",
+		"projects": "Projektek",
+		"add_project": "Projekt Létrehozása",
+		"tags": "Tag-ek"
+	},
+	"project": {
+		"modal": {
+			"header_create": "Projekt létrehozás",
+			"header_edit": "Projekt szerkesztés",
+			"toast": {
+				"project_created": "Projekt létrehozva",
+				"project_updated": "Projekt frissítve"
+			},
+			"form": {
+				"name": "Név"
+			}
+		}
+	}
+}
