@@ -17,7 +17,7 @@ i18n.use(initReactI18next).init(
 			en: require("./locales/en/translations.json"),
 			hu: require("./locales/hu/translations.json"),
 		},
-		lng: "hu",
+		lng: "en",
 		fallbackLng: "en",
 
 		interpolation: {
