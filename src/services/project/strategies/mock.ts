@@ -10,6 +10,8 @@ export class MockStrategy implements Strategy {
 		return faker.datatype.array(faker.datatype.number({ min: 2, max: 4 })).map(() => ({
 			id: faker.random.arrayElement(["kx2kbjsgli643mjgxg", "a1okbwekgo3pk8lyar", "q6nvk1vnjt2q454xdi", "tczkdotsup9avj20ig"]),
 			name: faker.lorem.words(faker.datatype.number({ min: 2, max: 3 })),
+			owner_id: nanoid(),
+			created_at: new Date(),
 		}))
 	}
 
@@ -18,7 +20,9 @@ export class MockStrategy implements Strategy {
 
 		return {
 			id: nanoid(),
-			...data,
+			owner_id: nanoid(),
+			created_at: new Date(),
+			...data.values,
 		}
 	}
 
@@ -26,7 +30,10 @@ export class MockStrategy implements Strategy {
 		await new Promise((r) => setTimeout(r, 1000))
 
 		return {
-			...data,
+			id: data.id,
+			owner_id: nanoid(),
+			created_at: new Date(),
+			...data.changes,
 		}
 	}
 

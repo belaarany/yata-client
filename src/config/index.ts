@@ -1,2 +1,3 @@
-export * as i18nConfig from "./i18n"
-export * as chakrauiConfig from "./chakraui"
+export * as i18n from "./i18n"
+export * as chakraui from "./chakraui"
+export * as firebase from "./firebase"

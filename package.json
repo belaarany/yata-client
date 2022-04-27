@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+	"tscheck": "./node_modules/.bin/tsc --noEmit",
     "prettier": "prettier --check ./src/",
     "prettier:format": "prettier --write ./src/"
   },

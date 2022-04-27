@@ -30,7 +30,9 @@ export const ProjectEditorModal = ({ isOpen, onClose, project }: any) => {
 		if (isNew) {
 			await dispatch(
 				addProject({
-					name: data.name,
+					values: {
+						name: data.name,
+					},
 				}),
 			)
 			toast({
@@ -41,7 +43,9 @@ export const ProjectEditorModal = ({ isOpen, onClose, project }: any) => {
 			await dispatch(
 				updateProject({
 					id: project.id,
-					name: data.name,
+					changes: {
+						name: data.name,
+					},
 				}),
 			)
 			toast({

@@ -8,12 +8,16 @@ export interface Strategy {
 }
 
 export interface AddProjectDTO {
-	name: string
+	values: {
+		name: string
+	}
 }
 
 export interface UpdateProjectDTO {
 	id: string
-	name: string
+	changes: {
+		name: string
+	}
 }
 
 export interface DeleteProjectDTO {

@@ -25,7 +25,9 @@ export const TaskItem = ({ task, onTaskClick, onCheckClick }: any) => (
 			{task.tags.length && (
 				<Stack direction="row">
 					{task.tags.map((tag: string) => (
-						<Tag key={tag} size="sm">#{tag}</Tag>
+						<Tag key={tag} size="sm">
+							#{tag}
+						</Tag>
 					))}
 				</Stack>
 			)}

@@ -4,12 +4,16 @@ import { EntityState } from "@reduxjs/toolkit"
 export interface State extends EntityState<Project> {}
 
 export interface AddProjectDTO {
-	name: string
+	values: {
+		name: string
+	}
 }
 
 export interface UpdateProjectDTO {
 	id: string
-	name: string
+	changes: {
+		name: string
+	}
 }
 
 export interface DeleteProjectDTO {
