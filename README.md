@@ -1,9 +1,9 @@
 # YATA - Yet Another Todolist App
 
-## Motivation
+## 🎯 Motivation
 I have created this app to mainly practise Redux, testing and project structuring.
 
-## Features
+## 💡 Features
 - No authentication
 - Using mock service strategy, so no data will be saved and all fetched data are client-side random-generated
 - Creating/updating/deleting projects (projects contain tasks)
@@ -13,7 +13,7 @@ I have created this app to mainly practise Redux, testing and project structurin
 ## Demo
 Demo app available on Vercel: [https://f9bzhqbv2o8swe22zy.vercel.app](https://f9bzhqbv2o8swe22zy.vercel.app)
 
-## Tech stack
+## 🚀 Tech stack
 - React
 	- NextJS
 - Redux
@@ -23,14 +23,3 @@ Demo app available on Vercel: [https://f9bzhqbv2o8swe22zy.vercel.app](https://f9
 - ChakraUI
 - ~~Firebase~~
 - Service Strategy Pattern
-
-## Run the app
-### Install dependencies
-```
-npm install
-```
-
-### Run the app
-```
-npm run dev
-```
