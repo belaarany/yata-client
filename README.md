@@ -10,7 +10,7 @@
 - ChakraUI
 - ~~Firebase~~
 - Service Strategy Pattern
-- 
+
 ## 🎯 Motivation
 I have created this app to mainly practise Redux, testing and project structuring.
 
